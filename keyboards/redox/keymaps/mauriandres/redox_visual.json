@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Redox",
+    "author": "Jeremy Herve",
+    "notes": "Redox keyboard design by [Mattia Dal Ben](https://github.com/mattdibi/redox-keyboard).\n\nMy layout uses 5 layers:\n\n1. The default base layer, using [Colemak](https://colemak.com/).\n2. A Symbol layer, so all symbols can be accessed from the home row. (top right legends)\n3. A Navigation / Media layer, with both sound control and arrows on the home row. (bottom right legends)\n4. An international / Emoji layer so I can type accented characters commonly used in France and in Hungary, as well as a few Emoji I often use. (top center legends)\n5. A keyboard control layer, not pictured here, allowing me to control the LED lighting as well as the keyboard debug functions.\n\nThis layout is available [here](https://github.com/jeherve/redox-layout).",
+    "switchMount": "cherry",
+    "switchBrand": "cherry",
+    "switchType": "MX1A-G1xx",
+    "plate": false,
+    "pcb": false,
+    "css": "/* Top right (Layer 1) */\n.keylabel2 {\n    color: #FF8333 !important;\n}\n\n/* Bottom right (Layer 2, nav) */\n.keylabel8 {\n    color: #0DA516 !important;\n}\n\n/* Top Center (layer 3, i18n) */\n.keylabel1 {\n    color: #33FFE9 !important;\n}"
+  },
+  [
+    {
+      "x": 3.5
+    },
+    "#\n3",
+    {
+      "x": 10.5
+    },
+    "*\n8"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 2.5
+    },
+    "@\n2",
+    {
+      "x": 1
+    },
+    "$\n4",
+    {
+      "x": 8.5
+    },
+    "&\n7",
+    {
+      "x": 1
+    },
+    "(\n9"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5.5
+    },
+    "%\n5",
+    {
+      "x": 6.5
+    },
+    "^\n6"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 0.25,
+      "w": 1.25
+    },
+    "~\n`",
+    "!\n1",
+    {
+      "x": 14.5
+    },
+    ")\n0",
+    {
+      "w": 1.25
+    },
+    "_\n-"
+  ],
+  [
+    {
+      "y": -0.625,
+      "x": 6.5,
+      "c": "#ff3333",
+      "a": 7
+    },
+    "Esc",
+    {
+      "x": 4.5,
+      "c": "#cccccc"
+    },
+    "Menu"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3.5,
+      "a": 4
+    },
+    "\nE",
+    {
+      "x": 10.5
+    },
+    "\nI"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 2.5
+    },
+    "\nW",
+    {
+      "x": 1
+    },
+    "\nR",
+    {
+      "x": 8.5
+    },
+    "\nU",
+    {
+      "x": 1
+    },
+    "\nO"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5.5
+    },
+    "\nT",
+    {
+      "x": 6.5
+    },
+    "\nY"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 0.25,
+      "a": 7,
+      "w": 1.25
+    },
+    "Tab",
+    {
+      "a": 4
+    },
+    "\nQ",
+    {
+      "x": 14.5
+    },
+    "\nP",
+    {
+      "w": 1.25
+    },
+    "+\n="
+  ],
+  [
+    {
+      "y": -0.625,
+      "x": 6.5,
+      "a": 7,
+      "h": 1.5
+    },
+    "Vol -",
+    {
+      "x": 4.5,
+      "h": 1.5
+    },
+    ""
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3.5,
+      "a": 4
+    },
+    "\nD",
+    {
+      "x": 10.5
+    },
+    "\nK"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 2.5
+    },
+    "\nS",
+    {
+      "x": 1,
+      "n": true
+    },
+    "\nF",
+    {
+      "x": 8.5,
+      "n": true
+    },
+    "\nJ",
+    {
+      "x": 1
+    },
+    "\nL"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5.5,
+      "sb": "cherry",
+      "st": "MX1A-G1xx"
+    },
+    "\nG",
+    {
+      "x": 6.5
+    },
+    "\nH"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 0.25,
+      "c": "#FF8333",
+      "a": 7,
+      "w": 1.25
+    },
+    "Lay 1",
+    {
+      "c": "#cccccc",
+      "a": 4
+    },
+    "\nA",
+    {
+      "x": 14.5
+    },
+    ":\n;",
+    {
+      "w": 1.25
+    },
+    "\"\n'"
+  ],
+  [
+    {
+      "y": -0.375,
+      "x": 3.5
+    },
+    "\nC",
+    {
+      "x": 10.5
+    },
+    "<\n,"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 2.5
+    },
+    "\nX",
+    {
+      "x": 1
+    },
+    "\nV\n`",
+    {
+      "x": 8.5
+    },
+    "\nM",
+    {
+      "x": 1
+    },
+    ">\n."
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 5.5
+    },
+    "\nB",
+    {
+      "x": 6.5
+    },
+    "\nN"
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 0.25,
+      "a": 7,
+      "w": 1.25
+    },
+    "SHIFT",
+    {
+      "a": 4
+    },
+    "\nZ",
+    {
+      "x": 14.5
+    },
+    "?\n/",
+    {
+      "a": 7,
+      "w": 1.25
+    },
+    "SHIFT"
+  ],
+  [
+    {
+      "y": -0.375,
+      "x": 3.5
+    },
+    "Alt",
+    {
+      "x": 10.5
+    },
+    ""
+  ],
+  [
+    {
+      "y": -0.875,
+      "x": 2.5
+    },
+    "Lay 4",
+    {
+      "x": 12.5
+    },
+    ""
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 0.5,
+      "c": "#33FFE9"
+    },
+    "Ctrl",
+    {
+      "c": "#cccccc"
+    },
+    "OS",
+    {
+      "x": 14.5
+    },
+    "Lay 3",
+    {
+      "c": "#33FFE9"
+    },
+    "Ctrl"
+  ],
+  [
+    {
+      "r": 15,
+      "y": -2.625,
+      "x": 5.75,
+      "c": "#cccccc",
+      "w": 1.25
+    },
+    "Lay 1"
+  ],
+  [
+    {
+      "r": 30,
+      "rx": 6.5,
+      "ry": 4.25,
+      "y": -1,
+      "c": "#80FF33"
+    },
+    "",
+    {
+      "c": "#FF8333"
+    },
+    ""
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "h": 1.5
+    },
+    "Enter",
+    {
+      "h": 1.5
+    },
+    "Back"
+  ],
+  [
+    {
+      "r": -30,
+      "rx": 13,
+      "y": -1,
+      "x": -2,
+      "c": "#FF8333"
+    },
+    "PrtSc",
+    {
+      "c": "#80FF33"
+    },
+    ""
+  ],
+  [
+    {
+      "x": -2,
+      "c": "#cccccc",
+      "h": 1.5
+    },
+    "Enter",
+    {
+      "h": 1.5
+    },
+    "Space"
+  ],
+  [
+    {
+      "r": -15,
+      "rx": 0,
+      "ry": 0,
+      "y": 7.75,
+      "x": 11.75,
+      "w": 1.25
+    },
+    "Lay 2"
+  ]
+]
