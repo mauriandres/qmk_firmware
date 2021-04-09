@@ -35,5 +35,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Custom settings by Mau
 #define IGNORE_MOD_TAP_INTERRUPT    // to help with home roll modifiers
-#define TAPPING_TERM 150            // optimizing for home row modifiers
+#define TAPPING_TERM 160            // optimizing for home row modifiers
 #define TAPPING_TOGGLE 2
